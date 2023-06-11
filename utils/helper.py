@@ -21,7 +21,6 @@ from langchain.memory import ConversationTokenBufferMemory
 from langchain.llms import OpenAI
 from langchain.memory import ConversationSummaryBufferMemory
 
-
 # Chains
 import pandas as pd
 from langchain.chains import LLMChain
@@ -38,6 +37,11 @@ from langchain.document_loaders import CSVLoader
 from langchain.vectorstores import DocArrayInMemorySearch
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.embeddings import OpenAIEmbeddings
+
+# Evaluation
+from langchain.evaluation.qa import QAGenerateChain
+import langchain
+from langchain.evaluation.qa import QAEvalChain
 
 from IPython.display import display, Markdown
 
