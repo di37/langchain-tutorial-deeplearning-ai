@@ -1,3 +1,3 @@
 ## LangChain for LLM Application Development
 
-Practicing Hands from the tutorial - https://learn.deeplearning.ai/langchain/lesson/1/introduction
+Practicing Hands on from topics of the short course - [LLM Application Development](https://learn.deeplearning.ai/langchain/).
